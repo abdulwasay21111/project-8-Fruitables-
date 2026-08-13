@@ -1,0 +1,11 @@
+.nav-search-icons{
+    border: 1px solid #FFB524;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.nav-search-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
