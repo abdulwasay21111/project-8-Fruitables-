@@ -1,71 +1,1047 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="./CSs/bootstrap.css" rel="stylesheet">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="./CSs/bootstrap.css" rel="stylesheet">
   <link rel="stylesheet" href="./CSs/style.css">
-  <link
-  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
-  rel="stylesheet"
-/>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
 
 </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container">
-    <a class="navbar-brand" href="#">Fruitables</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Shop</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Shop Details</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Pages
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacts</a>
-        </li>
-        
-      </ul>
-      <ul class="navbar-nav  mb-2 mb-lg-0 gap-4">
-        <li class="nav-item nav-search-icons">
-          <a class="fs-4" href="" style="text-decoration: none; color: #81C408;"><i class="ri-search-line"></i></a>
-        </li>
-         <li class="nav-item nav-icons">
-          <a class="fs-4" href="" style="text-decoration: none; color: #81C408;"><i class="ri-search-line"></i></a>
-        </li>
-       
-        
-        
-      </ul>
 
-      
+<body>
+  <nav class="navbar navbar-expand-lg " style="background-color: white;">
+    <div class="container">
+      <a class="navbar-brand nav-title fs-1" href="#">Fruitables</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 mt-0 gap-4">
+          <li class="nav-item">
+            <a class="nav-link active nav-links" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-links" href="./Shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-links" href="./shopdetails.html">Shop Details</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-links dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Cart</a></li>
+              <li><a class="dropdown-item" href="#">Chackout</a></li>
+              <li><a href="" class="dropdown-item">Testimonials</a></li>
+              <li><a class="dropdown-item" href="#">404 Page</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-links" href="./Contacts.html">Contacts</a>
+          </li>
+
+        </ul>
+        <ul class="navbar-nav  mb-2 mb-lg-0 gap-4">
+          <li class="nav-item nav-search-icons m-auto">
+            <a class="fs-4" href="" style="text-decoration: none; color: #81C408;"><i class="ri-search-line"></i></a>
+          </li>
+          <li class="nav-item nav-icons">
+            <a class="fs-1" href="" style="text-decoration: none; color: #81C408;"><i
+                class="ri-shopping-bag-line"></i></a>
+          </li>
+          <li class="nav-item nav-icons">
+            <a class="fs-1" href="" style="text-decoration: none; color: #81C408;"><i class="ri-user-line"></i></a>
+          </li>
+
+
+
+        </ul>
+
+
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
 
 
 
-    <script src="./JS/bootstrap.bundle.min.js"></script>
-  </body>
+
+
+
+
+
+  <section id="home">
+
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-6">
+          <div class="left-home">
+            <h3 style="color: #FFB524; font-weight: 600;" class="railway-font">100% Organic Foods</h3>
+            <h1 style="font-weight: 800; font-size: 55px; color: #81C408; margin-bottom: 50px;">Organic Veggies & Fruits
+              Foods</h1>
+            <div class="home-search" style="width: 85%;">
+              <form action="">
+                <input type="search" placeholder="Search"
+                  style="width: 100%; padding: 10px 20px; border: none; border: 2px solid #FFB524;"
+                  class="rounded-pill ">
+              </form>
+              <button
+                style="padding: 10px 20px; border: none; border: 2px solid #FFB524; background-color: #81C408; color: white;"
+                class="rounded-pill home-submit">
+                Sumbit Now
+              </button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="right-home">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner" style="border-radius: 10px;">
+                <div class="carousel-item active btn-position-r">
+                  <img src="./img/hero-img-1.png" class="d-block w-100" alt="..." style="   background-color: #FFB524;">
+                  <button class="btn-position-a"
+                    style="background-color: #ffb6249b; color: white ; padding: 8px 30px; border: none; ">
+                    Fruits
+                  </button>
+
+                </div>
+                <div class="carousel-item btn-position-r">
+                  <img src="./img/hero-img-2.jpg" class="d-block w-100" alt="...">
+                  <button class="btn-position-a rounded-3 fs-4"
+                    style=" background-color: #ffb6249b; padding: 10px; color: white; border: none;">
+                    Vegitables
+                  </button>
+                </div>
+
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+
+
+  <div class="organic-products">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-4">
+          <div class="left-organics">
+            <h2>Our Organic Products</h2>
+          </div>
+        </div>
+        <div class="col-8 ">
+          <div class="right-organics text-end ">
+            <ul style="list-style: none; display: flex; flex-direction: row; justify-content: end; gap: 20px;">
+              <li>
+                <button class="rounded-pill active" style="background-color: #FFB524; border: 0; padding: 6px 15px ;"><a
+                    href="" class="d-flex align-content-center justify-content-center text-decoration-none"
+                    style="color: white;">All Prodcuts</a></button>
+              </li>
+              <li> <button class="rounded-pill active"
+                  style="background-color: #f4f6f8; border: 0; padding: 6px 15px ;"><a href=""
+                    class="d-flex align-content-center justify-content-center text-decoration-none"
+                    style="color: #45595b;">All Prodcuts</a></button></li>
+              <li> <button class="rounded-pill active"
+                  style="background-color: #f4f6f8; border: 0; padding: 6px 15px ;"><a href=""
+                    class="d-flex align-content-center justify-content-center text-decoration-none"
+                    style="color: #45595b;">All Prodcuts</a></button></li>
+              <li> <button class="rounded-pill active"
+                  style="background-color: #f4f6f8; border: 0; padding: 6px 15px ;"><a href=""
+                    class="d-flex align-content-center justify-content-center text-decoration-none"
+                    style="color: #45595b;">All Prodcuts</a></button></li>
+              <li> <button class="rounded-pill active"
+                  style="background-color: #f4f6f8; border: 0;padding: 6px 15px ;"><a href=""
+                    class="d-flex align-content-center justify-content-center text-decoration-none"
+                    style="color: #45595b;">All Prodcuts</a></button></li>
+            </ul>
+
+
+          </div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card " style=" border: 1px solid #FFB524; padding: 0px !important;">
+              <div class="for-posi" style="position: relative;">
+                <img src="./img/fruite-item-1.jpg" class="card-img-top" alt="...">
+                <button style="background-color: #FFB524; border-radius: 7px; padding: 2px 20px; border: none; color: white; position: absolute; top: 11px;
+    left: 10px;">Fruits</button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color: #45595b;">Oranges</h5>
+                <p class="card-text text-center" style="color:#747d88; line-height: 25px; ">Lorem ipsum dolor sit amet
+                  <br> consectetur adipisicing elit <br> sed do eiusmod te <br> incididunt
+                </p>
+                <div class="price">
+                  <p style=" font-size: 20px; color: #45595b; font-weight: 700; margin-bottom: 0px;">$4.99 / kg</p>
+                  <button class="rounded-pill"
+                    style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                      class="text-decoration-none" style="color: #81C408; font-weight: 600;"><span
+                        style="display: inline-block; margin-right: 12px;"><i
+                          class="ri-shopping-bag-line"></i></span>Add to Card</a></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card " style=" border: 1px solid #FFB524; padding: 0px !important;">
+              <div class="for-posi" style="position: relative;">
+                <img src="./img/fruite-item-2.jpg" class="card-img-top" alt="...">
+                <button style="background-color: #FFB524; border-radius: 7px; padding: 2px 20px; border: none; color: white; position: absolute; top: 11px;
+    left: 10px;">Fruits</button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color: #45595b;">Oranges</h5>
+                <p class="card-text text-center" style="color:#747d88; line-height: 25px; ">Lorem ipsum dolor sit amet
+                  <br> consectetur adipisicing elit <br> sed do eiusmod te <br> incididunt
+                </p>
+                <div class="price">
+                  <p style=" font-size: 20px; color: #45595b; font-weight: 700; margin-bottom: 0px;">$4.99 / kg</p>
+                  <button class="rounded-pill"
+                    style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                      class="text-decoration-none" style="color: #81C408; font-weight: 600;"><span
+                        style="display: inline-block; margin-right: 12px;"><i
+                          class="ri-shopping-bag-line"></i></span>Add to Card</a></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card " style=" border: 1px solid #FFB524; padding: 0px !important;">
+              <div class="for-posi" style="position: relative;">
+                <img src="./img/fruite-item-3.jpg" class="card-img-top" alt="...">
+                <button style="background-color: #FFB524; border-radius: 7px; padding: 2px 20px; border: none; color: white; position: absolute; top: 11px;
+    left: 10px;">Fruits</button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color: #45595b;">Oranges</h5>
+                <p class="card-text text-center" style="color:#747d88; line-height: 25px; ">Lorem ipsum dolor sit amet
+                  <br> consectetur adipisicing elit <br> sed do eiusmod te <br> incididunt
+                </p>
+                <div class="price">
+                  <p style=" font-size: 20px; color: #45595b; font-weight: 700; margin-bottom: 0px;">$4.99 / kg</p>
+                  <button class="rounded-pill"
+                    style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                      class="text-decoration-none" style="color: #81C408; font-weight: 600;"><span
+                        style="display: inline-block; margin-right: 12px;"><i
+                          class="ri-shopping-bag-line"></i></span>Add to Card</a></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card " style=" border: 1px solid #FFB524; padding: 0px !important;">
+              <div class="for-posi" style="position: relative;">
+                <img src="./img/fruite-item-4.jpg" class="card-img-top" alt="...">
+                <button style="background-color: #FFB524; border-radius: 7px; padding: 2px 20px; border: none; color: white; position: absolute; top: 11px;
+    left: 10px;">Fruits</button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color: #45595b;">Oranges</h5>
+                <p class="card-text text-center" style="color:#747d88; line-height: 25px; ">Lorem ipsum dolor sit amet
+                  <br> consectetur adipisicing elit <br> sed do eiusmod te <br> incididunt
+                </p>
+                <div class="price">
+                  <p style=" font-size: 20px; color: #45595b; font-weight: 700; margin-bottom: 0px;">$4.99 / kg</p>
+                  <button class="rounded-pill"
+                    style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                      class="text-decoration-none" style="color: #81C408; font-weight: 600;"><span
+                        style="display: inline-block; margin-right: 12px;"><i
+                          class="ri-shopping-bag-line"></i></span>Add to Card</a></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card " style=" border: 1px solid #FFB524; padding: 0px !important;">
+              <div class="for-posi" style="position: relative;">
+                <img src="./img/fruite-item-5.jpg" class="card-img-top" alt="...">
+                <button style="background-color: #FFB524; border-radius: 7px; padding: 2px 20px; border: none; color: white; position: absolute; top: 11px;
+    left: 10px;">Fruits</button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color: #45595b;">Oranges</h5>
+                <p class="card-text text-center" style="color:#747d88; line-height: 25px; ">Lorem ipsum dolor sit amet
+                  <br> consectetur adipisicing elit <br> sed do eiusmod te <br> incididunt
+                </p>
+                <div class="price">
+                  <p style=" font-size: 20px; color: #45595b; font-weight: 700; margin-bottom: 0px;">$4.99 / kg</p>
+                  <button class="rounded-pill"
+                    style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                      class="text-decoration-none" style="color: #81C408; font-weight: 600;"><span
+                        style="display: inline-block; margin-right: 12px;"><i
+                          class="ri-shopping-bag-line"></i></span>Add to Card</a></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card " style=" border: 1px solid #FFB524; padding: 0px !important;">
+              <div class="for-posi" style="position: relative;">
+                <img src="./img/fruite-item-6.jpg" class="card-img-top" alt="...">
+                <button style="background-color: #FFB524; border-radius: 7px; padding: 2px 20px; border: none; color: white; position: absolute; top: 11px;
+    left: 10px;">Fruits</button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color: #45595b;">Oranges</h5>
+                <p class="card-text text-center" style="color:#747d88; line-height: 25px; ">Lorem ipsum dolor sit amet
+                  <br> consectetur adipisicing elit <br> sed do eiusmod te <br> incididunt
+                </p>
+                <div class="price">
+                  <p style=" font-size: 20px; color: #45595b; font-weight: 700; margin-bottom: 0px;">$4.99 / kg</p>
+                  <button class="rounded-pill"
+                    style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                      class="text-decoration-none" style="color: #81C408; font-weight: 600;"><span
+                        style="display: inline-block; margin-right: 12px;"><i
+                          class="ri-shopping-bag-line"></i></span>Add to Card</a></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card " style=" border: 1px solid #FFB524; padding: 0px !important;">
+              <div class="for-posi" style="position: relative;">
+                <img src="./img/fruite-item-1.jpg" class="card-img-top" alt="...">
+                <button style="background-color: #FFB524; border-radius: 7px; padding: 2px 20px; border: none; color: white; position: absolute; top: 11px;
+    left: 10px;">Fruits</button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color: #45595b;">Oranges</h5>
+                <p class="card-text text-center" style="color:#747d88; line-height: 25px; ">Lorem ipsum dolor sit amet
+                  <br> consectetur adipisicing elit <br> sed do eiusmod te <br> incididunt
+                </p>
+                <div class="price">
+                  <p style=" font-size: 20px; color: #45595b; font-weight: 700; margin-bottom: 0px;">$4.99 / kg</p>
+                  <button class="rounded-pill"
+                    style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                      class="text-decoration-none" style="color: #81C408; font-weight: 600;"><span
+                        style="display: inline-block; margin-right: 12px;"><i
+                          class="ri-shopping-bag-line"></i></span>Add to Card</a></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card " style=" border: 1px solid #FFB524; padding: 0px !important;">
+              <div class="for-posi" style="position: relative;">
+                <img src="./img/fruite-item-3.jpg" class="card-img-top" alt="...">
+                <button style="background-color: #FFB524; border-radius: 7px; padding: 2px 20px; border: none; color: white; position: absolute; top: 11px;
+    left: 10px;">Fruits</button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center" style="color: #45595b;">Oranges</h5>
+                <p class="card-text text-center" style="color:#747d88; line-height: 25px; ">Lorem ipsum dolor sit amet
+                  <br> consectetur adipisicing elit <br> sed do eiusmod te <br> incididunt
+                </p>
+                <div class="price">
+                  <p style=" font-size: 20px; color: #45595b; font-weight: 700; margin-bottom: 0px;">$4.99 / kg</p>
+                  <button class="rounded-pill"
+                    style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                      class="text-decoration-none" style="color: #81C408; font-weight: 600;"><span
+                        style="display: inline-block; margin-right: 12px;"><i
+                          class="ri-shopping-bag-line"></i></span>Add to Card</a></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="discount">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-4">
+                <div class="dis-card1" style="border: 1px solid #FFB524; border-radius: 10px; overflow: hidden;">
+                  <div class="dic-img" style="position: relative;">
+                    <img src="./img/featur-1.jpg" alt="" style="width: 100%;">
+                    <div class="dic-off text-center rounded-4"
+                      style="background-color: #81C408; width: 70%; margin: auto; padding: 20px 20px 30px 20px;; z-index: 10; position: absolute; bottom: -66px;left: 56px;">
+                      <h5 style="color: white;">Fresh Apples</h5>
+                      <h3 style="color: #45595b;">20% OFF</h3>
+                    </div>
+                  </div>
+                  <div class="colour" style="background-color: #FFB524; width: 100%; height: 130px;">
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="dis-card1" style="border: 1px solid #45595b; border-radius: 10px; overflow: hidden;">
+                  <div class="dic-img" style="position: relative;">
+                    <img src="./img/featur-2.jpg" alt="" style="width: 100%;">
+                    <div class="dic-off text-center rounded-4"
+                      style="background-color: white; width: 70%; margin: auto; padding: 20px 20px 30px 20px;; z-index: 10; position: absolute; bottom: -66px;left: 56px;">
+                      <h5 style="color: #81C408 ;">Tasty Fruits</h5>
+                      <h3 style="color: #45595b;">Free Delivery</h3>
+                    </div>
+                  </div>
+                  <div class="colour" style="background-color: #45595b; width: 100%; height: 130px;">
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-lg-4">
+                <div class="dis-card1" style="border: 1px solid #81C408; border-radius: 10px; overflow: hidden;">
+                  <div class="dic-img" style="position: relative;">
+                    <img src="./img/featur-3.jpg" alt="" style="width: 100%;">
+                    <div class="dic-off text-center rounded-4"
+                      style="background-color: #FFB524; width: 70%; margin: auto; padding: 20px 20px 30px 20px;; z-index: 10; position: absolute; bottom: -66px;left: 56px;">
+                      <h5 style="color: white;">Fresh Apples</h5>
+                      <h3 style="color: #45595b;">20% OFF</h3>
+                    </div>
+                  </div>
+                  <div class="colour" style="background-color: #81C408; width: 100%; height: 130px;">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="organic-vegetables">
+          <div class="container">
+            <h2 style="color: #45595b;" class="mb-5">Our Fresh Organic Vegetables</h2>
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="card " style=" border: 1px solid #81C408; padding: 0px !important;">
+                  <div class="for-posi" style="position: relative;">
+                    <img src="./img/vegetable-item-4.jpg" class="card-img-top" alt="...">
+                    <button style="background-color: #FFB524; border-radius: 7px; padding: 2px 20px; border: none; color: white; position: absolute; top: 11px;
+    left: 10px;">Fruits</button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: #45595b;">Oranges</h5>
+                    <p class="card-text" style="color:#747d88; line-height: 25px; ">Lorem ipsum dolor sit amet
+                      <br> consectetur adipisicing elit <br> sed do eiusmod te <br> incididunt
+                    </p>
+                    <div class="price">
+                      <p style=" font-size: 20px; color: #45595b; font-weight: 700; margin-bottom: 0px;">$4.99 / kg</p>
+                      <button class="rounded-pill"
+                        style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                          class="text-decoration-none" style="color: #81C408; font-weight: 600;"><span
+                            style="display: inline-block; margin-right: 12px;"><i
+                              class="ri-shopping-bag-line"></i></span>Add to Card</a></button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="card " style=" border: 1px solid #81C408; padding: 0px !important;">
+                  <div class="for-posi" style="position: relative;">
+                    <img src="./img/vegetable-item-3.png" class="card-img-top" alt="...">
+                    <button style="background-color: #FFB524; border-radius: 7px; padding: 2px 20px; border: none; color: white; position: absolute; top: 11px;
+    left: 10px;">Fruits</button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title " style="color: #45595b;">Oranges</h5>
+                    <p class="card-text " style="color:#747d88; line-height: 25px; ">Lorem ipsum dolor sit amet
+                      <br> consectetur adipisicing elit <br> sed do eiusmod te <br> incididunt
+                    </p>
+                    <div class="price">
+                      <p style=" font-size: 20px; color: #45595b; font-weight: 700; margin-bottom: 0px;">$4.99 / kg</p>
+                      <button class="rounded-pill"
+                        style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                          class="text-decoration-none" style="color: #81C408; font-weight: 600;"><span
+                            style="display: inline-block; margin-right: 12px;"><i
+                              class="ri-shopping-bag-line"></i></span>Add to Card</a></button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="card " style=" border: 1px solid #81C408; padding: 0px !important;">
+                  <div class="for-posi" style="position: relative;">
+                    <img src="./img/vegetable-item-5.jpg" class="card-img-top" alt="...">
+                    <button style="background-color: #FFB524; border-radius: 7px; padding: 2px 20px; border: none; color: white; position: absolute; top: 11px;
+    left: 10px;">Fruits</button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title " style="color: #45595b;">Oranges</h5>
+                    <p class="card-text" style="color:#747d88; line-height: 25px; ">Lorem ipsum dolor sit amet
+                      <br> consectetur adipisicing elit <br> sed do eiusmod te <br> incididunt
+                    </p>
+                    <div class="price">
+                      <p style=" font-size: 20px; color: #45595b; font-weight: 700; margin-bottom: 0px;">$4.99 / kg</p>
+                      <button class="rounded-pill"
+                        style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                          class="text-decoration-none" style="color: #81C408; font-weight: 600;"><span
+                            style="display: inline-block; margin-right: 12px;"><i
+                              class="ri-shopping-bag-line"></i></span>Add to Card</a></button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="card " style=" border: 1px solid #81C408; padding: 0px !important;">
+                  <div class="for-posi" style="position: relative;">
+                    <img src="./img/vegetable-item-1.jpg" class="card-img-top" alt="...">
+                    <button style="background-color: #FFB524; border-radius: 7px; padding: 2px 20px; border: none; color: white; position: absolute; top: 11px;
+    left: 10px;">Fruits</button>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title " style="color: #45595b;">Oranges</h5>
+                    <p class="card-text " style="color:#747d88; line-height: 25px; ">Lorem ipsum dolor sit amet
+                      <br> consectetur adipisicing elit <br> sed do eiusmod te <br> incididunt
+                    </p>
+                    <div class="price">
+                      <p style=" font-size: 20px; color: #45595b; font-weight: 700; margin-bottom: 0px;">$4.99 / kg</p>
+                      <button class="rounded-pill"
+                        style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                          class="text-decoration-none" style="color: #81C408; font-weight: 600;"><span
+                            style="display: inline-block; margin-right: 12px;"><i
+                              class="ri-shopping-bag-line"></i></span>Add to Card</a></button>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="apple-discount" style="background-color: #FFB524; padding-top: 80px; padding-bottom: 80px;">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="left-apple">
+                  <h2 style="font-size: 65px; color: white;">Fresh Exotic <br> Fruits</h2>
+                  <p style="font-size: 70px; color: #45595b;"> in Our Store</p>
+                  <p style="color: #45595b;">The generated Lorem Ipsum is therefore always free from repetition injected
+                    humour, or non-characteristic words etc.</p>
+                  <button class="rounded-pill"
+                    style="padding: 10px 50px; border: none; background-color: #FFB524; border: 2px solid white;">
+                    <a href="" class="text-decoration-none fw-bold" style="color: #45595b;">Buy</a>
+                  </button>
+
+                </div>
+              </div>
+              <div class="col">
+                <div class="right-apple" style="position: relative;">
+                  <img src="./img/baner-1.png" alt="" style="width: 100%;">
+                  <div class="apple-price d-flex justify-content-center"
+                    style=" width: 150px; height: 150px; border-radius: 50%; padding: 10px; background-color: white;position: absolute; top: 0; left: 0;">
+                    <h1 style="font-size: 100px; color: #45595b;">1</h1>
+                    <div class="quatity d-flex flex-column justify-content-center " style="line-height: 50px; ">
+                      <span style="font-weight: 700; font-size: 40px; color: #45595b;">50$</span>
+                      <span style="font-size: 40px; color: #45595b;">kg</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="seller-products">
+          <div class="container">
+            <h2 style="text-align: center; font-size: 56px ; font-weight: 800; color: #45595b; margin-bottom: 10px;">
+              Bestseller Products</h2>
+            <p style="text-align: center; color: #747d88; line-height: 24px; margin-bottom: 35px;">Latin words, combined
+              with a handful of model sentence structures, to generate Lorem <br> Ipsum which looks
+              reasonable.</p>
+            <div class="row g-4">
+              <div class="col-lg-6 col-xl-4">
+                <div class="scard1 " style="background-color: #f4f6f8; padding: 20px; border-radius: 20px;">
+                  <div class="s1-content d-flex gap-3 align-items-center justify-content-center">
+                    <div class="left-content">
+                      <img src="./img/best-product-1.jpg" alt=""
+                        style="width: 140px; height: 140px ;border-radius: 50%;">
+                    </div>
+                    <div class="right content">
+                      <h5><a href="Organic Tomato" style="text-decoration: none; color: #45595b;">Organic <br>
+                          Tomato</a></h5>
+                      <div class="for-iconsgap d-flex gap-0">
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-line fs-3" style="color: #81C408;"></i>
+                      </div>
+                      <p style="color: #45595b; font-size: 20px; font-weight: 700;">3.12 $</p>
+                      <button class="rounded-pill"
+                        style="border: 1px solid #FFB524; background-color: white; padding: 4px 25px;"><a href=""
+                          class="text-decoration-none fs-5" style="color: #81C408; font-weight: 600;"><span
+                            style="display: inline-block; margin-right: 12px;"><i
+                              class="ri-shopping-bag-line"></i></span>Add to <br> Cart</a></button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-4">
+                <div class="scard1 " style="background-color: #f4f6f8; padding: 20px; border-radius: 20px;">
+                  <div class="s1-content d-flex gap-3 align-items-center justify-content-center">
+                    <div class="left-content">
+                      <img src="./img/best-product-1.jpg" alt=""
+                        style="width: 140px; height: 140px ;border-radius: 50%;">
+                    </div>
+                    <div class="right content">
+                      <h5><a href="Organic Tomato" style="text-decoration: none; color: #45595b;">Organic <br>
+                          Tomato</a></h5>
+                      <div class="for-iconsgap d-flex gap-0">
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-line fs-3" style="color: #81C408;"></i>
+                      </div>
+                      <p style="color: #45595b; font-size: 20px; font-weight: 700;">3.12 $</p>
+                      <button class="rounded-pill"
+                        style="border: 1px solid #FFB524; background-color: white; padding: 4px 25px;"><a href=""
+                          class="text-decoration-none fs-5" style="color: #81C408; font-weight: 600;"><span
+                            style="display: inline-block; margin-right: 12px;"><i
+                              class="ri-shopping-bag-line"></i></span>Add to <br> Cart</a></button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-4">
+                <div class="scard1 " style="background-color: #f4f6f8; padding: 20px; border-radius: 20px;">
+                  <div class="s1-content d-flex gap-3 align-items-center justify-content-center">
+                    <div class="left-content">
+                      <img src="./img/best-product-1.jpg" alt=""
+                        style="width: 140px; height: 140px ;border-radius: 50%;">
+                    </div>
+                    <div class="right content">
+                      <h5><a href="Organic Tomato" style="text-decoration: none; color: #45595b;">Organic <br>
+                          Tomato</a></h5>
+                      <div class="for-iconsgap d-flex gap-0">
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-line fs-3" style="color: #81C408;"></i>
+                      </div>
+                      <p style="color: #45595b; font-size: 20px; font-weight: 700;">3.12 $</p>
+                      <button class="rounded-pill"
+                        style="border: 1px solid #FFB524; background-color: white; padding: 4px 25px;"><a href=""
+                          class="text-decoration-none fs-5" style="color: #81C408; font-weight: 600;"><span
+                            style="display: inline-block; margin-right: 12px;"><i
+                              class="ri-shopping-bag-line"></i></span>Add to <br> Cart</a></button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-4">
+                <div class="scard1 " style="background-color: #f4f6f8; padding: 20px; border-radius: 20px;">
+                  <div class="s1-content d-flex gap-3 align-items-center justify-content-center">
+                    <div class="left-content">
+                      <img src="./img/best-product-1.jpg" alt=""
+                        style="width: 140px; height: 140px ;border-radius: 50%;">
+                    </div>
+                    <div class="right content">
+                      <h5><a href="Organic Tomato" style="text-decoration: none; color: #45595b;">Organic <br>
+                          Tomato</a></h5>
+                      <div class="for-iconsgap d-flex gap-0">
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-line fs-3" style="color: #81C408;"></i>
+                      </div>
+                      <p style="color: #45595b; font-size: 20px; font-weight: 700;">3.12 $</p>
+                      <button class="rounded-pill"
+                        style="border: 1px solid #FFB524; background-color: white; padding: 4px 25px;"><a href=""
+                          class="text-decoration-none fs-5" style="color: #81C408; font-weight: 600;"><span
+                            style="display: inline-block; margin-right: 12px;"><i
+                              class="ri-shopping-bag-line"></i></span>Add to <br> Cart</a></button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-4">
+                <div class="scard1 " style="background-color: #f4f6f8; padding: 20px; border-radius: 20px;">
+                  <div class="s1-content d-flex gap-3 align-items-center justify-content-center">
+                    <div class="left-content">
+                      <img src="./img/best-product-1.jpg" alt=""
+                        style="width: 140px; height: 140px ;border-radius: 50%;">
+                    </div>
+                    <div class="right content">
+                      <h5><a href="Organic Tomato" style="text-decoration: none; color: #45595b;">Organic <br>
+                          Tomato</a></h5>
+                      <div class="for-iconsgap d-flex gap-0">
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-line fs-3" style="color: #81C408;"></i>
+                      </div>
+                      <p style="color: #45595b; font-size: 20px; font-weight: 700;">3.12 $</p>
+                      <button class="rounded-pill"
+                        style="border: 1px solid #FFB524; background-color: white; padding: 4px 25px;"><a href=""
+                          class="text-decoration-none fs-5" style="color: #81C408; font-weight: 600;"><span
+                            style="display: inline-block; margin-right: 12px;"><i
+                              class="ri-shopping-bag-line"></i></span>Add to <br> Cart</a></button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-4">
+                <div class="scard1 " style="background-color: #f4f6f8; padding: 20px; border-radius: 20px;">
+                  <div class="s1-content d-flex gap-3 align-items-center justify-content-center">
+                    <div class="left-content">
+                      <img src="./img/best-product-1.jpg" alt=""
+                        style="width: 140px; height: 140px ;border-radius: 50%;">
+                    </div>
+                    <div class="right content">
+                      <h5><a href="Organic Tomato" style="text-decoration: none; color: #45595b;">Organic <br>
+                          Tomato</a></h5>
+                      <div class="for-iconsgap d-flex gap-0">
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                        <i class="ri-star-line fs-3" style="color: #81C408;"></i>
+                      </div>
+                      <p style="color: #45595b; font-size: 20px; font-weight: 700;">3.12 $</p>
+                      <button class="rounded-pill"
+                        style="border: 1px solid #FFB524; background-color: white; padding: 4px 25px;"><a href=""
+                          class="text-decoration-none fs-5" style="color: #81C408; font-weight: 600;"><span
+                            style="display: inline-block; margin-right: 12px;"><i
+                              class="ri-shopping-bag-line"></i></span>Add to <br> Cart</a></button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row g-4 mt-2">
+              <div class="col-lg-6 col-xl-3">
+                <div class="card" style="border: none !important;">
+                  <img src="./img/fruite-item-4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title" style="color: #45595b;">Organic Tomato
+                    </h5>
+                    <div class="for-iconsgap d-flex gap-0 justify-content-center">
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-line fs-3" style="color: #81C408;"></i>
+                    </div>
+                    <p class="card-text" style="color: #45595b; font-weight: 600; font-size: 24px;">3.12 $</p>
+                    <button class="rounded-pill"
+                      style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                        class="text-decoration-none " style="color: #81C408; font-weight: 600;"><span
+                          style="display: inline-block; margin-right: 12px;"><i
+                            class="ri-shopping-bag-line"></i></span>Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-3">
+                <div class="card" style="border: none !important;">
+                  <img src="./img/fruite-item-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title" style="color: #45595b;">Organic Tomato
+                    </h5>
+                    <div class="for-iconsgap d-flex gap-0 justify-content-center">
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-line fs-3" style="color: #81C408;"></i>
+                    </div>
+                    <p class="card-text" style="color: #45595b; font-weight: 600; font-size: 24px;">3.12 $</p>
+                    <button class="rounded-pill"
+                      style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                        class="text-decoration-none " style="color: #81C408; font-weight: 600;"><span
+                          style="display: inline-block; margin-right: 12px;"><i
+                            class="ri-shopping-bag-line"></i></span>Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-3">
+                <div class="card" style="border: none !important;">
+                  <img src="./img/fruite-item-6.jpg" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title" style="color: #45595b;">Organic Tomato
+                    </h5>
+                    <div class="for-iconsgap d-flex gap-0 justify-content-center">
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-line fs-3" style="color: #81C408;"></i>
+                    </div>
+                    <p class="card-text" style="color: #45595b; font-weight: 600; font-size: 24px;">3.12 $</p>
+                    <button class="rounded-pill"
+                      style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                        class="text-decoration-none " style="color: #81C408; font-weight: 600;"><span
+                          style="display: inline-block; margin-right: 12px;"><i
+                            class="ri-shopping-bag-line"></i></span>Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-3">
+                <div class="card" style="border: none !important;">
+                  <img src="./img/fruite-item-5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body text-center">
+                    <h5 class="card-title" style="color: #45595b;">Organic Tomato
+                    </h5>
+                    <div class="for-iconsgap d-flex gap-0 justify-content-center">
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-s-fill fs-3" style="color: #81C408;"></i>
+                      <i class="ri-star-line fs-3" style="color: #81C408;"></i>
+                    </div>
+                    <p class="card-text" style="color: #45595b; font-weight: 600; font-size: 24px;">3.12 $</p>
+                    <button class="rounded-pill"
+                      style="border: 1px solid #FFB524; background-color: white; padding: 5px 10px;"><a href=""
+                        class="text-decoration-none " style="color: #81C408; font-weight: 600;"><span
+                          style="display: inline-block; margin-right: 12px;"><i
+                            class="ri-shopping-bag-line"></i></span>Add to Cart</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="products-ratings">
+          <div class="container">
+            <div class="row g-3" style="background-color: #f4f6f8; padding: 50px;">
+              <div class="col-md-6 col-xl-3">
+                <div class="prog1 text-center" style="background-color: white; padding: 30px; border-radius: 15px;">
+                  <i class="ri-team-line mb-3" style="font-size: 65px; color: #FFB524;"></i>
+                  <h3 style="color: #81C408;" class="mb-3">Satisfied Customers</h3>
+                  <h3 style="color: #45595b;">1963</h3>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-3">
+                <div class="prog1 text-center" style="background-color: white; padding: 30px; border-radius: 15px;">
+                  <i class="ri-team-line mb-3" style="font-size: 65px; color: #FFB524;"></i>
+                  <h3 style="color: #81C408;" class="mb-3">Quality of Service</h3>
+                  <h3 style="color: #45595b;">99%</h3>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-3">
+                <div class="prog1 text-center" style="background-color: white; padding: 30px; border-radius: 15px;">
+                  <i class="ri-team-line mb-3" style="font-size: 65px; color: #FFB524;"></i>
+                  <h3 style="color: #81C408;" class="mb-3">Quality Certificates</h3>
+                  <h3 style="color: #45595b;">33</h3>
+                </div>
+              </div>
+              <div class="col-md-6 col-xl-3">
+                <div class="prog1 text-center" style="background-color: white; padding: 30px; border-radius: 15px;">
+                  <i class="ri-team-line mb-3" style="font-size: 65px; color: #FFB524;"></i>
+                  <h3 style="color: #81C408;" class="mb-3">Available Products</h3>
+                  <h3 style="color: #45595b;">789</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <footer style="background-color: #45595b;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mt-3">
+                    <h1 style="color: #81C408; font-size: 45px;">Fruitables</h1>
+                    <p style="color: #FFB524; margin-top: 0px;">Fresh products</p>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="footer-subs">
+                        <input type="email" placeholder="Your Email"
+                            style="width: 100%; border-radius: 50px; padding: 15px; background-color: white; border: none;">
+                        <button
+                            style="background-color: #81C408; color: white; padding: 15px 20px; border-radius: 50px; border: none; font-weight: 600;">
+                            Subscribe Now
+                        </button>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="footer-icons text-center">
+                        <a class="fs-4" href="" style="text-decoration: none; color: #81C408;  "><i
+                                class="ri-search-line"></i></a>
+                        <a class="fs-4" href="" style="text-decoration: none; color: #81C408;"><i
+                                class="ri-search-line"></i></a>
+                        <a class="fs-4" href="" style="text-decoration: none; color: #81C408;"><i
+                                class="ri-search-line"></i></a>
+                        <a class="fs-4" href="" style="text-decoration: none; color: #81C408;"><i
+                                class="ri-search-line"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr style="color: #FFB524;">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mt-3">
+                    <div class="foot-content1">
+                        <h3 style="color: white;">Why People Like us!</h3>
+                        <p style="color: #9ba3ad; line-height: 33px;">typesetting, remaining <br> essentially unchanged.
+                            It
+                            was <br> popularised in the 1960s with <br> the like Aldus PageMake <br> including of Lorem
+                            Ipsum.
+
+                        </p>
+                        <button class="rounded-pill"
+                            style=" color: #81C408; background-color: #45595b; border: 1px solid #FFB524; padding: 7px 20px;">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mt-3">
+                    <div class="foot-content2">
+                        <h3 style="color: white;" class="mb-4">Shop Info</h3>
+                        <div class="for-links d-flex flex-column gap-3">
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">About Us</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Contact Us</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Privacy Policy</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Terms and Condition</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Return Policy</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">FAQs & Help</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mt-3">
+                    <div class="foot-content2">
+                        <h3 style="color: white;" class="mb-4">Account</h3>
+                        <div class="for-links d-flex flex-column gap-3">
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">
+                                My Account</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Shop Details</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Shopping Cart</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Wishlist</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Order History</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">International Orders</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 mt-3">
+                    <div class="foot-content2">
+                        <h3 style="color: white;" class="mb-4">Contact</h3>
+                        <div class="for-links d-flex flex-column gap-3">
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Address: 1429 Netus Rd, NY
+                                48247</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Email: Example@gmail.com</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Privacy Policy</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Phone: +0123 4567 8910</a>
+                            <a href="" style="text-decoration: none; color: #a8b1bb;">Payment Accepted</a>
+
+                            <div class="payment">
+                                <img src="./img/payment.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+        <script src="./JS/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
